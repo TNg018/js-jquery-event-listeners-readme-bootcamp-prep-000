@@ -3,3 +3,9 @@ function getIt() {
   alert( "Hey!" );
 });
 }
+
+function frameIt() {
+  $('img').load(function() {
+
+  });
+}
