@@ -22,5 +22,5 @@ function pressIt() {
   if(key.which === 'G'){
   return alert('G was pressed');
   }
-}) false;
+});
 }
