@@ -16,3 +16,11 @@ function submitIt() {
     event.preventDefault();
   });
 }
+
+function pressIt() {
+  $(document).on('keydown', function(key) {
+  if(key.which == 'g'){
+      alert('G was pressed');
+  }
+});
+}
