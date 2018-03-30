@@ -6,6 +6,6 @@ function getIt() {
 
 function frameIt() {
   $('img').on('load', function() {
-    window.frameIt
+  window.frameIt
   });
 }
