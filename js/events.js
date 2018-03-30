@@ -20,7 +20,7 @@ function submitIt() {
 function pressIt() {
   $(document).on('keydown', function(key) {
   if(key.which === 'G'){
-      alert('G was pressed');
+  return alert('G was pressed');
   }
 });
 }
