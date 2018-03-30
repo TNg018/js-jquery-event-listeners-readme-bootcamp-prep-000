@@ -7,6 +7,5 @@ $(document).ready(function(){
 });
 
 $(paragraph).on('keydown', function(key) {
-  if(key.which == pressed){
-  }
+  if(key.which == pressed)
 });
