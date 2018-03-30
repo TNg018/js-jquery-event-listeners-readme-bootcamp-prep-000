@@ -7,8 +7,7 @@ $(document).ready(function(){
 });
 
 function getIt() {
-  $(document.paragraph).on('keydown', function(key) {
-    if(key.which == pressed)
-    return ("Hey!")
-  });
+  $( "p" ).click(function() {
+  alert( "Handler for .click() called." );
+});
 }
