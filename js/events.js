@@ -9,3 +9,10 @@ function frameIt() {
   $('img').addClass("tasty")
   });
 }
+
+function submitIt() {
+  $("form").submit(function(event) {
+    alert( "Your form is going to be submitted now." );
+    event.preventDefault();
+  });
+}
