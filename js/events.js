@@ -9,6 +9,6 @@ $(document).ready(function(){
 function getIt() {
   $(document.paragraph).on('keydown', function(key) {
     if(key.which == pressed)
-    return key
+    return paragraph
   });
 }
