@@ -6,6 +6,9 @@ $(document).ready(function(){
 
 });
 
-$(paragraph).on('keydown', function(key) {
-  if(key.which == pressed)
-});
+function getIt() {
+  $(paragraph).on('keydown', function(key) {
+    if(key.which == pressed)
+    return key
+  });  
+}
