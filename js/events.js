@@ -7,7 +7,7 @@ $(document).ready(function(){
 });
 
 function getIt() {
-  $(paragraph).on('keydown', function(key) {
+  $(document.paragraph).on('keydown', function(key) {
     if(key.which == pressed)
     return key
   });
